@@ -36,8 +36,6 @@ precioValido(): boolean{
 }
 
 
-
-
   guardar(){
     console.log(this.miFormulario);
     this.miFormulario.resetForm({
