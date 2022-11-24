@@ -1,0 +1,30 @@
+<h2>Forms x Template</h2>
+<hr>
+
+
+<ul class="list-group">
+    <li *ngFor="let m of templateMenu"
+        class="list-group-item list-group-item-action"
+        routerLink="{{m.ruta}}"
+        routerLinkActive="active">
+        {{m.texto}}
+    </li>
+   
+</ul>
+
+<br><br>
+
+
+<h2>Forms Reactive</h2>
+<hr>
+
+
+<ul class="list-group">
+    <li *ngFor="let m of reactiveMenu"
+        class="list-group-item list-group-item-action"
+        routerLink="{{m.ruta}}"
+        routerLinkActive="active">
+        {{m.texto}}
+    </li>
+   
+</ul>
